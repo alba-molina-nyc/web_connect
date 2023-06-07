@@ -28,7 +28,12 @@ SECRET_KEY = 'django-insecure-kmmq1)8nd4+-14^rff%)ph^w5o=0#=8zxp*+aegb%u*r=dn5^m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://git.heroku.com/limitless-earth-39026.git',
+                 'https://www.git.heroku.com/limitless-earth-39026.git/',
+                 'https://www.git.heroku.com/limitless-earth-39026.git',
+                 'www.git.heroku.com/limitless-earth-3926.git',
+                 'www.git.heroku.com/limitless-earth-3926.git',
+                 ]
 
 
 # Application definition
