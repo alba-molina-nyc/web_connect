@@ -128,9 +128,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-import os
-
-# ...
 
 # Check if the DISABLE_COLLECTSTATIC environment variable is set to '1'
 if os.environ.get('DISABLE_COLLECTSTATIC') == '1':
